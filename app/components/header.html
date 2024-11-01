@@ -1,0 +1,30 @@
+<header class="header">
+  <div class="container">
+    <div class="header__top">
+      <a class="logo">
+        <img src="./img/logo.png" alt="Логотип" class="logo__img">
+        <span class="logo__text">Київський центр реєстрації</span>
+      </a>
+      @@include('../components/phones.html', {})
+    </div>
+  </div>
+  <div class="header__middlewrapper">
+    <div class="container">
+      <div class="header__middle">
+        <div class="header__links">
+          @@include('../components/credentials.html', {})
+          @@include('../components/socials.html', {})
+        </div>
+        @@include('../components/langlist.html', {})
+      </div>
+    </div>
+  </div>
+  <div class="header__navwrapper">
+    <div class="container">
+      <div class="header__nav">
+        @@include('../components/navbar.html', {})
+      </div>
+    </div>
+  </div>
+  </div>
+</header>

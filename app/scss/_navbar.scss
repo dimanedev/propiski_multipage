@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__link {
+    color: rgb(247, 246, 246);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+}

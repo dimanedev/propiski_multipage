@@ -1,0 +1,19 @@
+.langlist {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &__link {
+    color: rgb(16, 16, 16);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+
+    &_active,
+    &:hover {
+      color: rgb(5, 63, 166);
+      border-bottom: 2px solid rgb(5, 63, 166);
+    }
+  }
+}
